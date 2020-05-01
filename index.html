@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>events</title>
+    <style>
+      body {
+        max-width: 600px;
+        margin: auto;
+        font-family: sans-serif;
+      }
+      div {
+        height: 3em;
+        background: gold;
+        margin-bottom: 2em;
+        padding: 0.5em;
+        border-radius: 0.5em;
+      }
+      span {
+        background: black;
+        color: #fed700;
+        padding: 0 0.5em;
+        border-radius: 0.25em;
+      }
+    </style>
+
+    
+  </head>
+  <body>
+    <h1>events are fun</h1>
+    <div>mouse coordinates are <span id="mouse-coords">UNDEFINED</span></div>
+    <div>
+      the mouse has been clicked <span id="mouse-clicks">UNDEFINED</span> times
+    </div>
+    <div>
+      <button>this button</button>
+      has been clicked <span id="button-clicks">UNDEFINED</span> times
+    </div>
+    <div>
+      the key that was just pressed was <span id="key-press">UNDEFINED</span>
+    </div>
+    <div>
+      the text that has been highlighted is
+      <span id="text-highlighted">UNDEFINED</span>
+    </div>
+    <div>
+      the tag of the element under the mouse pointer is
+      <span id="mouse-el-tag">UNDEFINED</span>
+    </div>
+    <div>
+      the tab has been hidden
+      <span id="tab-hide-num">UNDEFINED</span> times
+    </div>
+    <div>
+      <input id="username" placeholder="username" />
+      the username is
+      <span id="username-value">UNDEFINED</span>
+    </div>
+    <div>
+      <audio controls>
+        <source
+          src="http://www.hyperion-records.co.uk/audiotest/3%20Schubert%20String%20Quartet%20No%2014%20in%20D%20minor%20Death%20and%20the%20Maiden,%20D810%20-%20Movement%203%20Scherzo%20Allegro%20molto.MP3"
+          type="audio/ogg"
+        />
+      </audio>
+      the playing state of the song is <span id="playing-state">UNDEFINED</span>
+​
+      the current time through the song <span id="playing-time">UNDEFINED</span>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
